@@ -1,3 +1,84 @@
-h1{
-    color: red;
+@font-face{
+    font-family: Norse-Bold;
+    src: url(font/Norse-Bold.otf);
+}
+
+:root{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #EFEFEF;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Image Section  */
+.left{
+    background: no-repeat url("image/halie-west-unsplash.jpg");
+    background-size: cover;
+    color: rgba(255,255,255);
+    width: 500px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.title-box{
+    margin-top: 120px;
+    width: 100%;
+    text-align: center;
+}
+
+.title-box > h1{
+    background-color: rgba(0,0,0,.4);
+    font-family: Norse-Bold;
+    font-size: 6rem;
+ 
+}
+
+.title-box img{
+    height: 125px;
+}
+
+.attribute{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+/* Sign Up Section  */
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.right > .top{
+    margin-left: 5rem;
+}
+
+.middle{
+    background-color:rgb(255, 255, 255);
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+}
+
+.input{
+    margin-left: 3rem;
 }

@@ -7,65 +7,106 @@
     <title>Sign Up</title>
 
     <link rel="stylesheet" href="styles.css">
+
+    <!-- font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <img src="image/halie-west-unsplash.jpg" alt="halie-west-unsplash" height="700">
-    </div>
-    <div class ="header">
-        <h3>
-            This is not a real online service!  
-        You know you need something like this in your life to 
-        help you realize your deepest dreams.
-        </h3>
-        <h3>You know you want to.</h3>
+
+    <div class = "content">
+        <!-- Pictures -->
+
+        <div class = "left">
+            <div class="title-box">
+                <h1><img src="image/odin-lined.png" alt="odin-lined">ODIN</h1>
+
+            </div>
+                <p>Photo by <a class = "attribute" href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                    Halie West</a> on <a class ="attribute" href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                        UnSplash</a></p>
+            
+        </div>
+
+        <!-- Sign up Content -->
+
+        <div class="right">
+
+            <div class ="top">
+                <p>
+                    This is not a real online service!  
+                You know you need something like this in your life to 
+                help you realize your deepest dreams.
+                </p>
+                <p>Sign up <em>now</em> to get started</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+        
+            <div class ="middle">
+        
+        
+        <h3>Let's do this!</h3>
+        <form action="">
+            <div class="container">
+
+                <div class ="input">
+                    <label for="firstName">FIRST NAME</label><br>
+                    <input type="text" name ="first_name" required>    
+                </div>
+            
+                <div class = "input">
+                    <label for="lastName">LAST NAME</label><br>
+                    <input type="text" name ="last_name" required>
+                </div>
+            
+                <div class = "input">
+                    <label for="email">EMAIL</label><br>
+                    <input type="email" name ="email">
+                </div>
+            
+                <div class = "input">
+                    <label for="phoneNumber">PHONE NUMBER</label><br>
+                    <input type="text" name ="last_name" required>
+                </div>
+            
+                <div class = "input">
+                    <label for="PASSWORD">PASSWORD</label><br>
+                    <input type="text" name ="last_name" required>
+                </div>
+            
+                <div class = "input">
+                    <label for="CONFIRM PASSWORD">CONFIRM PASSWORD</label><br>
+                    <input type="text" name ="last_name" required>
+                </div>
+
+        </div>
+       
+           
+        
+        
+        </div>
+        
+        
+            <button type="submit">Create Account</button>
+        
+        </form>
+        
+        <p>Already have an account? <a href="/login">Log in</a></p>
+
+        </div>
+
+
+
     </div>
 
-    <div class ="form">
-
-
-<h3>Let's do this!</h3>
-<form action="">
-    <div>
-        <label for="firstName">FIRST NAME</label><br>
-        <input type="text" name ="first_name" required>    
-    </div>
-
-    <div>
-        <label for="lastName">LAST NAME</label><br>
-        <input type="text" name ="last_name" required>
-    </div>
-
-    <div>
-        <label for="email">EMAIL</label><br>
-        <input type="email" name ="email">
-    </div>
-
-    <div>
-        <label for="phoneNumber">PHONE NUMBER</label><br>
-        <input type="text" name ="last_name" required>
-    </div>
-
-    <div>
-        <label for="PASSWORD">PASSWORD</label><br>
-        <input type="text" name ="last_name" required>
-    </div>
-
-    <div>
-        <label for="CONFIRM PASSWORD">CONFIRM PASSWORD</label><br>
-        <input type="text" name ="last_name" required>
-    </div>
    
+ 
+       
 
 
-</div>
-
-
-    <button type="submit">Create Account</button>
-
-</form>
-
-<p>Already have an account? <a href="/login">Log in</a></p>
+   
 
 
 </body>
