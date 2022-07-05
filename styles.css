@@ -10,13 +10,14 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #EFEFEF;
 
 }
 
 .content{
     display: flex;
     flex-direction: row;
+    background-color: #EFEFEF;
+
 }
 
 /* Image Section  */
@@ -57,28 +58,72 @@ body{
 
 /* Sign Up Section  */
 
-.right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-
-.right > .top{
+/* Top content */
+p{
     margin-left: 5rem;
+    font-size: 12px;
 }
+.top > p{
+    font-size: 20px;
+    margin-left: 5rem;
+    font-weight: bold;
+}
+
+
+.right{
+    margin-top: 7rem;   
+    width: 120vh;    
+
+}
+
+/* Middle content */
 
 .middle{
     background-color:rgb(255, 255, 255);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 
+    0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
 
+.middle > h3{
+    margin-left: 5rem;
+    font-size: 20px;
+    padding-top: 1.5rem;
+    font-weight: bold;
 }
 .container{
     display: flex;
     flex-direction: row;
-    gap: 16px;
-
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    
 }
 
 .input{
-    margin-left: 3rem;
+    padding: 0 50px 25px 0;
+}
+.input > label{
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+
+/* Bottom Content */
+
+.submitButton{
+    background-color: #596D48;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255,255,255,.9);
+    margin-left: 5rem;
+    margin-top: 3rem;
+    padding: 12px 50px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 
+    0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+
+.loginLink{
+    color: #596D48;
+    text-decoration: none;
 }
